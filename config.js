@@ -1,4 +1,8 @@
+const path = require('path')
+const dotenv = require('dotenv')
 require("dotenv").config()
+
+dotenv.config({path: './config/config.env'})
 
 module.exports = { 
     consumer_key:           process.env.API_KEY,
