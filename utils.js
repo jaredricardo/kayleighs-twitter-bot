@@ -32,7 +32,7 @@ function toCute(s){
 		cuteSentence.push(word.join(''))
     }
     const regex = /th/ig
-    return cuteSentence.join(' ').replace(regex, 'd')
+    return cuteSentence.join(' ').replace(regex, 't')
 }
 
 
