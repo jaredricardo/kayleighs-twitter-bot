@@ -1,10 +1,5 @@
 console.log("bot starting")
 
-// my id: 631397535
-// kayleighs ID : 1053796380 (wrldofwhorecrft)
-// test bot id : 1359939989145071618
-// Uwu bot id: 1361407377946378240
-// Evans id: 544473385
 // to find a users ID:  curl "https://api.twitter.com/2/users/by/username/TWITTERHANDLE" -H "Authorization: Bearer BEARERTOKEN"
 
 const Twit = require('twit')
